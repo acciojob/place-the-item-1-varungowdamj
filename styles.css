@@ -1,2 +1,15 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* CSS code for .holder */
+.holder {
+    display: flex; /* Defines the .holder element as a flex container */
+    justify-content: space-between; /* Distributes space between items */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line if necessary */
+}
+
+/* CSS code for .item */
+.item {
+    width:30px;
+	height:30px;
+    background-color: #f0f0f0; /* Light grey background for items */
+    border: 1px solid #ddd; /* Light border around items */
+}
